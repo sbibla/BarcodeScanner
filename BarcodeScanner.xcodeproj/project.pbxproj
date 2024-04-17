@@ -61,15 +61,13 @@
 		64560B2B2BC5A142009F56F6 /* BarcodeScanner */ = {
 			isa = PBXGroup;
 			children = (
+				6477E78B2BCFA213000631DC /* Utilities */,
+				6477E7892BCFA1DE000631DC /* Views */,
+				6477E7872BCFA1BF000631DC /* Screens */,
 				64560B2C2BC5A142009F56F6 /* BarcodeScannerApp.swift */,
-				64560B2E2BC5A142009F56F6 /* BarcodeScannerView.swift */,
-				6477E7842BCE0184000631DC /* BarcodeScannerViewModel.swift */,
 				64560B302BC5A143009F56F6 /* Assets.xcassets */,
 				64560B322BC5A143009F56F6 /* BarcodeScanner.entitlements */,
 				64560B332BC5A143009F56F6 /* Preview Content */,
-				64560B3E2BC5BDFC009F56F6 /* ScannerVC.swift */,
-				6477E7802BCCC96E000631DC /* ScannerView.swift */,
-				6477E7822BCE0150000631DC /* Alert.swift */,
 				6477E7862BCF8152000631DC /* Readme.md */,
 			);
 			path = BarcodeScanner;
@@ -81,6 +79,48 @@
 				64560B342BC5A143009F56F6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6477E7872BCFA1BF000631DC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6477E7882BCFA1C7000631DC /* BarcodeScanner */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6477E7882BCFA1C7000631DC /* BarcodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				6477E7842BCE0184000631DC /* BarcodeScannerViewModel.swift */,
+				64560B2E2BC5A142009F56F6 /* BarcodeScannerView.swift */,
+			);
+			path = BarcodeScanner;
+			sourceTree = "<group>";
+		};
+		6477E7892BCFA1DE000631DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6477E78A2BCFA1ED000631DC /* UIKit Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6477E78A2BCFA1ED000631DC /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				64560B3E2BC5BDFC009F56F6 /* ScannerVC.swift */,
+				6477E7802BCCC96E000631DC /* ScannerView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		6477E78B2BCFA213000631DC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6477E7822BCE0150000631DC /* Alert.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
