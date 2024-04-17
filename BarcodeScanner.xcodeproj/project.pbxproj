@@ -28,6 +28,7 @@
 		6477E7802BCCC96E000631DC /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 		6477E7822BCE0150000631DC /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		6477E7842BCE0184000631DC /* BarcodeScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerViewModel.swift; sourceTree = "<group>"; };
+		6477E7862BCF8152000631DC /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +70,7 @@
 				64560B3E2BC5BDFC009F56F6 /* ScannerVC.swift */,
 				6477E7802BCCC96E000631DC /* ScannerView.swift */,
 				6477E7822BCE0150000631DC /* Alert.swift */,
+				6477E7862BCF8152000631DC /* Readme.md */,
 			);
 			path = BarcodeScanner;
 			sourceTree = "<group>";
